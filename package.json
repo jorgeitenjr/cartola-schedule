@@ -1,0 +1,25 @@
+{
+  "name": "cartola-schedule",
+  "version": "1.0.0",
+  "description": "Escalar time no cartola antes de cada rodada",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Jorge Luis Iten Jr",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "node-fetch": "^2.3.0",
+    "node-schedule": "^1.3.2",
+    "prettier": "^1.17.0",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^3.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-prettier": "^3.0.1"
+  }
+}
