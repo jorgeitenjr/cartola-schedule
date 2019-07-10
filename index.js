@@ -29,7 +29,7 @@ schedule.scheduleJob('0 0 8 * * *', async () => {
     logger.debug(`Last timeout cleared: ${lastTimeout}`);
     clearTimeout(lastTimeout);
   }
-  const timeout = runAt(dateToRun.format('DD/MM/YYYY HH:mm'), () => startSchedule(logger));
+  const timeout = runAt(dateToRun, () => startSchedule(logger));
   lastTimeout = timeout;
   logger.info(`Finishing daily routine at: ${new Date()}`);
 });
