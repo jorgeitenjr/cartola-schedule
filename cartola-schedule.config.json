@@ -1,0 +1,9 @@
+{
+    "apps": [
+           {
+               "name": "cartola-schedule",
+               "script": "npm",
+               "args": "start"
+           }
+       ]
+}
