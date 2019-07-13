@@ -155,7 +155,6 @@ const startSchedule = async logger => {
       atletas: [],
       capitao: 0,
     };
-    scheduleTeam(teamToTest(allAthletes, logger), logger);
     teamLineup.atletas = await getCurrentTeamLineup(allAthletes);
     teamLineup.capitao = teamLineup.atletas[0];
     scheduleTeam(teamLineup, logger);
